@@ -1,6 +1,9 @@
 package Game;
 
+import GUI.Frame;
+
 import java.awt.*;
+import java.util.Random;
 
 public class Util {
 
@@ -17,5 +20,17 @@ public class Util {
             case 8 -> new Color(0x68686D);
             default -> null;
         };
+    }
+
+    static int randomX()
+    {
+        Random r = new Random();
+        return r.nextInt(GUI.Frame.BOARD_LENGTH);
+    }
+
+    static int randomY()
+    {
+        Random r = new Random();
+        return r.nextInt(Frame.BOARD_WIDTH);
     }
 }

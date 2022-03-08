@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GameMinesweeper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GameMinesweeper_jar</output-path>
+    <root id="archive" name="GameMinesweeper.jar">
+      <element id="module-output" name="GameMinesweeper" />
+    </root>
+  </artifact>
+</component>
